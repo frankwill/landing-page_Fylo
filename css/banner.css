@@ -1,0 +1,53 @@
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.5rem;
+    gap: 1rem;
+}
+
+.banner_img {
+    width: 80%;
+    margin-bottom: 2rem;
+}
+
+.banner__titulo {
+    font-size: 1.4rem;
+    text-align: center;
+    font-family: var(--open-sans);
+    color: var(--azul-escuro);
+    font-weight: 700;
+    line-height: normal;
+}
+
+.banner__texto {
+    margin: 1rem 0;
+    text-align: center;
+    color: var(--azul-escuro);
+    line-height: normal;
+}
+
+.input-padrao {
+    width: 100%;
+    padding: 1rem;
+    color: var(--azul-escuro);
+    border-style: none;
+    border: 1px solid var(--azul-escuro);
+    border-radius: 5px;
+}
+
+.input-padrao::placeholder {
+    font-family: var(--raleway);
+}
+
+.botao-padrao {
+    font-family: var(--raleway);
+    font-size: 20px;
+    color: var(--branco);
+    font-weight: 700;
+    width: 100%;
+    padding: 1rem;
+    background: var(--azul-claro);
+    border-style: none;
+    border-radius: 5px;
+}

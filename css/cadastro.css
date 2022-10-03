@@ -1,0 +1,28 @@
+.cadastro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 4rem 1rem;
+    background: var(--roxo-claro);
+}
+
+.cadastro__titulo {
+    font-family: var(--raleway);
+    font-weight: 700;
+    color: var(--azul-escuro);
+    font-size: 20px;
+    color: var(--branco);
+}
+
+.cadastro__texto {
+    color: var(--azul-escuro);
+    line-height: normal;
+    text-align: center;
+    color: var(--branco);
+}
+
+.cadastro__email {
+    border: none;
+    border-radius: 2px;
+}
