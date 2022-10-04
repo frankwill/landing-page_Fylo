@@ -26,3 +26,35 @@
     border: none;
     border-radius: 2px;
 }
+
+@media screen and (min-width: 1440px) {
+    .cadastro {
+        display: grid;
+        grid-template-columns: 1fr .5fr;
+        gap: 5rem;
+        padding: 6rem 2rem;
+    }
+
+    .cadastro__container {
+        display: grid;
+        gap: 1rem;
+    }
+
+    .cadastro__email {
+        width: 100%;
+    }
+
+    .comece-agora {
+        width: 50%;
+        margin: 0;
+    }
+
+    .cadastro__titulo {
+        font-size: 28px;
+    }
+
+    .cadastro__texto {
+        text-align: left;
+    }
+    
+}

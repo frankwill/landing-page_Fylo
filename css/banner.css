@@ -34,6 +34,7 @@
     border-style: none;
     border: 1px solid var(--azul-escuro);
     border-radius: 5px;
+    margin-bottom: 1rem;
 }
 
 .input-padrao::placeholder {
@@ -46,8 +47,41 @@
     color: var(--branco);
     font-weight: 700;
     width: 100%;
-    padding: 1rem;
+    padding: .7rem;
     background: var(--azul-claro);
     border-style: none;
     border-radius: 5px;
+}
+
+@media screen and (min-width: 1440px) {
+    .banner {
+        display: grid;
+    }
+
+    .banner__titulo {
+        font-size: 28px;
+    }
+
+   .banner_img {
+    width: 100%;
+    grid-column: 2 / 3;
+   }
+
+   .banner__container {
+    grid-column: 1;
+    grid-row: 1;
+
+   }
+
+   .input-padrao {
+    width: 60%;
+    margin-bottom: 0;
+   }
+
+   .botao-padrao {
+    width: 30%;
+    margin-left: 1.5rem;
+   }
+
+
 }
