@@ -4,7 +4,19 @@
     align-items: center;
     background-position:top;
     gap: 1.5rem;
-    padding: 1.5rem;
+    background-color: var(--fundo);
+    margin-top: 100px;
+    position: relative;
+}
+
+.servicos::before {
+    content: "";
+    background-image: url(../img/bg-curve-mobile.svg);
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    top: -50px;
+    left: 0;
 }
 
 .servicos__img {
@@ -19,11 +31,13 @@
     color: var(--azul-escuro);
     text-align: center;
     line-height: normal;
+    padding: 1rem 2rem;
 }
 
 .servicos__texto {
     color: var(--roxo-claro);
     line-height: normal;
+    padding: 1rem 2rem;
 }
 
 .servicos__link {
@@ -43,10 +57,10 @@
     flex-direction: column;
     gap: .5rem;
     background: var(--branco);
+    margin: 1rem 2rem 4rem;
     padding: 1rem 2rem;
     border-radius: 5px;
     box-shadow: 2px 2px 15px 1px rgba(0, 0, 0, 0.2);
-    margin-bottom: 4rem;
 }
 
 .comentario__quotes {

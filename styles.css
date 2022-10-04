@@ -14,11 +14,17 @@
     --fundo: hsl(240, 75%, 98%);
     --cinza: hsl(0, 0%, 75%);
     --branco: #FFFFFF;
+    
+
+color: #1A1A1A;
+
+color: #0A0A0A;
+
 }
 
 body {
     font-family: var(--open-sans);
     font-weight: 400;
     font-size: 16px;
-    background: var(--fundo);
+    background: var(--branco);
 }
