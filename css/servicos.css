@@ -113,6 +113,21 @@
     color: var(--azul-escuro);
 }
 
+@media screen and (min-width: 768px) {
+    .servicos::before {
+        height: 80px;
+        top: -70px;
+    }
+    
+    .servicos__img {
+        width: 60%;
+    }
+
+    .comentario {
+        width: 50%;
+    }
+}
+
 @media screen and (min-width: 1440px) {
     .servicos {
         display: grid;
@@ -126,7 +141,7 @@
     .servicos::before {
         background-image: url(../img/bg-curve-desktop.svg);
         height: 100px;
-        top: -70px;
+        top: -90px;
     }
 
     .servicos__img {

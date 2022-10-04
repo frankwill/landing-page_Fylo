@@ -53,6 +53,18 @@
     border-radius: 5px;
 }
 
+@media screen and (min-width: 768px) {
+    
+    .banner__container {
+        text-align: center;
+    }
+    
+    .input-padrao,
+    .botao-padrao {
+        width: 60%;
+    }
+}
+
 @media screen and (min-width: 1440px) {
     .banner {
         display: grid;
