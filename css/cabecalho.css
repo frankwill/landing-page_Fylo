@@ -21,4 +21,20 @@
     color: var(--roxo-claro);
     font-family: var(--raleway);
     font-weight: 400;
+    position: relative;
+}
+
+.nav__lista-link::after {
+    content: "";
+    position: absolute;
+    background: var(--roxo-claro);
+    height: 2px;
+    width: 0;
+    left: 0;
+    top: 20px; 
+    transition: 0.3s; 
+}
+
+.nav__lista-link:hover::after {
+    width: 100%;
 }

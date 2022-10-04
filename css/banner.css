@@ -51,6 +51,11 @@
     background: var(--azul-claro);
     border-style: none;
     border-radius: 5px;
+    transition: 0.3s;
+}
+
+.botao-padrao:hover {
+    background: #001ec5;
 }
 
 @media screen and (min-width: 768px) {
